@@ -12,13 +12,19 @@ This library is under heavy development.
 ```
 
 ```{toctree}
-:caption: 'Contents '
-:maxdepth: 2
+:caption: 'Installation'
 
 installation
+
+:caption: 'EO data download'
+:maxdepth: 2
+
 eo_data_download
 notebooks/S2_data_download
 notebooks/S1_data_download
+
+:caption: 'Content'
+
 notebooks/region_of_interest
 notebooks/sentinel_2_prepro
 ```
