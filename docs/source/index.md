@@ -7,6 +7,9 @@
 ```{include} ../../README.md
 ```
 
+For further info, check out {doc}`usage`.
+Read installation section in {ref}`Installation`
+
 ```{warning}
 This library is under heavy development.
 ```
@@ -14,4 +17,6 @@ This library is under heavy development.
 ```{toctree}
 :caption: 'Contents:'
 :maxdepth: 2
+
+usage
 ```
