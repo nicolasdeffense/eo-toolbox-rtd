@@ -7,19 +7,18 @@
 ```{include} ../../README.md
 ```
 
-For further info, check out {doc}`usage`.
-Read installation section in {ref}`Installation`
-
 ```{warning}
 This library is under heavy development.
 ```
 
 ```{toctree}
 :caption: 'Contents '
-:maxdepth: 1
+:maxdepth: 2
 
-usage
-notebooks/tutorial
+installation
+eo_data_download
+notebooks/S2_data_download
+notebooks/S1_data_download
 notebooks/region_of_interest
 notebooks/sentinel_2_prepro
 ```
