@@ -15,9 +15,11 @@ This library is under heavy development.
 ```
 
 ```{toctree}
-:caption: 'Contents:'
+:caption: 'Contents '
 :maxdepth: 2
 
 usage
 notebooks/tutorial
+notebooks/region_of_interest
+
 ```
