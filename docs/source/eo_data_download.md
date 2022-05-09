@@ -54,7 +54,10 @@ The [Copernicus Open Access Hub](https://scihub.copernicus.eu) provides complete
 
 `sentinelsat` makes searching, downloading and retrieving the metadata of Sentinel satellite images from the *Copernicus Open Access Hub* easy.
 
-#### *Sentinel-2*
+```{toctree}
+:maxdepth: 2
 
+notebooks/S2_data_download
+notebooks/S1_data_download
 
-#### *Sentinel-1*
+```
