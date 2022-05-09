@@ -9,15 +9,13 @@ Once the ROI (*Region of Interest*) has been defined, the Earth Observation (*EO
 
 > <i class="fas fa-exclamation-triangle"></i> It is NOT recommended to download EO data from this site.
 
-:fa:`save`
-:fa:`fa-exclamation-triangle`
 
 <figure class="image">
-  <img src="figures/eo_browser.png" alt="LSA Geo-Catalog" width="800">
+  <img src="eo_browser.png" alt="LSA Geo-Catalog" width="800">
   <figcaption>Sentinel Hub EO Browser</figcaption>
 </figure>
 
-.. image:: figures/eo_browser.png
+.. image:: eo_browser.png
   :width: 800
   :alt: LSA Geo-Catalog
 
