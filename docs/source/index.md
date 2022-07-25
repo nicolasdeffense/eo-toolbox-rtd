@@ -16,15 +16,14 @@ This library is under heavy development.
 
 installation
 
+eo_data_download
+
 notebooks/region_of_interest
 
 notebooks/in_situ_data
 
 notebooks/sentinel_2_prepro
 
-eo_data_download
-
 gee/gee_import_export
-
 
 ```
