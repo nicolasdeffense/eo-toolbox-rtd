@@ -17,6 +17,9 @@ This library is under heavy development.
 installation
 
 notebooks/region_of_interest
+
+notebooks/in_situ_data
+
 notebooks/sentinel_2_prepro
 
 eo_data_download

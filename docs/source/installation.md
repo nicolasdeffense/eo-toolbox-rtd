@@ -28,7 +28,9 @@
 
 ## From your personal computer
 
-> ! Requires stockage to install Miniconda (or Anaconda) and the necessary packages !
+```{warning}
+Requires stockage to install Miniconda (or Anaconda) and the necessary packages !
+```
 
 1. Download Miniconda (or Anaconda)  
 
