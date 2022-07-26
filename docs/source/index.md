@@ -16,15 +16,9 @@ This library is under heavy development.
 
 installation
 
-eo_data_download
+eo_data_download/index
 
-notebooks/region_of_interest
-
-notebooks/in_situ_data
-
-notebooks/sentinel_2_prepro
-
-gee/gee_import_export
+roi/index
 
 sentinel_2/index
 
