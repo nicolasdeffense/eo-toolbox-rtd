@@ -132,17 +132,6 @@ Only for students with access to the lab’s IT infrastructure
     You can download all the content of this git by clicking on "Code>Download ZIP".
 
 
-![Python Logo](figures/eo_browser.png)
-
-
-![Python Logo](https://www.python.org/static/community_logos/python-logo.png)
-
-
-<figure class="image">
-  <img src="figures/eo_browser.png" alt="Image classification" width="600">
-  <figcaption>Image classification</figcaption>
-</figure>
-
 
 
 
