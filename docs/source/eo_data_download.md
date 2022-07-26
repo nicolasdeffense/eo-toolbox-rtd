@@ -11,14 +11,12 @@ Once the ROI (*Region of Interest*) has been defined, the Earth Observation (*EO
 
 
 <figure class="image">
-  <img src="eo_browser.png" alt="LSA Geo-Catalog" width="800">
+  <img src="_images/eo_browser.png" alt="EO browser" width="800">
   <figcaption>Sentinel Hub EO Browser</figcaption>
 </figure>
 
-.. image:: eo_browser.png
-  :width: 800
-  :alt: LSA Geo-Catalog
 
+![EO browser](_images/eo_browser.png)
 
 
 ## 2. Luxembourg Space Agency Data Center
@@ -30,7 +28,7 @@ The LSA Data Center allows the users to search, discover and download the data. 
 > <i class="fas fa-exclamation-triangle"></i> Only Sentinel-2 Level 2A and Sentinel-1 Level 1 (GRD) are available via the LSA Data Center. 
 
 <figure class="image">
-  <img src="figures/lsa_geoportail.png" alt="LSA Geo-Catalog" width="800">
+  <img src="_images/lsa_geoportail.png" alt="LSA Geo-Catalog" width="800">
   <figcaption>LSA Geo-Catalogue</figcaption>
 </figure>
 
@@ -45,7 +43,7 @@ The [Copernicus Open Access Hub](https://scihub.copernicus.eu) provides complete
 
 
 <figure class="image">
-  <img src="figures/scihub_ui.png" alt="SciHub Graphical User Interface" width="800">
+  <img src="_images/scihub_ui.png" alt="SciHub Graphical User Interface" width="800">
   <figcaption>SciHub Graphical User Interface</figcaption>
 </figure>
 
@@ -55,7 +53,7 @@ The [Copernicus Open Access Hub](https://scihub.copernicus.eu) provides complete
 `sentinelsat` makes searching, downloading and retrieving the metadata of Sentinel satellite images from the *Copernicus Open Access Hub* easy.
 
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 1
 
 notebooks/S2_data_download
 notebooks/S1_data_download
