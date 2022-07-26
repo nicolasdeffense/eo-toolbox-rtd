@@ -27,3 +27,11 @@ notebooks/sentinel_2_prepro
 gee/gee_import_export
 
 ```
+
+
+```{toctree}
+:maxdepth: 2
+
+sentinel_2/classification
+
+```

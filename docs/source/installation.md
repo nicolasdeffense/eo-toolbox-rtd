@@ -16,12 +16,12 @@
     conda activate sise
     ```
 
-4. Launch Jupyter-Lab
+4. Launch JupyterLab
     ```sh
     jupyter lab
     ```
 
-5. Close Jupyter-Lab  
+5. Close JupyterLab  
     `CTRL-C`  
     `CTRL-C`
 
@@ -120,12 +120,12 @@ Only for students with access to the lab’s IT infrastructure
     H:
     ```
 
-5. Launch Jupyter-Lab
+5. Launch JupyterLab
     ```sh
     jupyter lab
     ```
     
-    By default, Jupyter Lab opens in Internet Explorer and this does not work. You need to copy the URL link and paste it into Google Chrome instead.
+    By default, JupyterLab opens in Internet Explorer and this does not work. You need to copy the URL link and paste it into Google Chrome instead.
 
 6. Navigates to the folder where the notebooks are located
     
