@@ -7,9 +7,7 @@
 ```{include} ../../README.md
 ```
 
-```{warning}
-This library is under heavy development.
-```
+---
 
 ```{toctree}
 :maxdepth: 2
