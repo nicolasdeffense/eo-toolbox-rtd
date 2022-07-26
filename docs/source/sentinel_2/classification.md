@@ -18,9 +18,9 @@ In this chapter we will see how to use the Random Forest implementation provided
 
 
 
-![Image classification](figures/im_classif_pixel.png)
+![Image classification](../figures/im_classif_pixel.png)
 
-![Image classification](figures/classif_namur_2020.png)
+![Image classification](../figures/classif_namur_2020.png)
 Namur, 2020 (NDVI & monthly composites S1 backscattering VV)
 
 
