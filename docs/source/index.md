@@ -22,4 +22,6 @@ roi/index
 
 sentinel_2/index
 
+classification/index
+
 ```

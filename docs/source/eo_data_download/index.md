@@ -3,5 +3,9 @@
 ```{toctree}
 :maxdepth: 2
 
-eo_data_download
+eo_browser
+
+lsa
+
+scihub
 ```
