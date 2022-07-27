@@ -12,7 +12,7 @@
 ```{toctree}
 :maxdepth: 2
 
-installation
+installation/index
 
 eo_data_download/index
 

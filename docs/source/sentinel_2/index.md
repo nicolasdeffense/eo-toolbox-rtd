@@ -8,6 +8,10 @@ The *Copernicus Sentinel-2* mission comprises a constellation of two polar-orbit
   </video>
 </figure>
 
+
+<video controls src="_build/html/_static/sentinel_2_orbite.mp4"></video>
+
+
 ## Processing Levels
 
 ### Level-1C
@@ -24,18 +28,16 @@ This processing is split into two parts:
 
 > From the mid-March 2018, the Level-2A became an operational product, beginning with coverage of the Euro-Mediterranean region. Global coverage started in December 2018.
 
-<figure class="image">
-  <img src="s2_levels.jpg" alt="S2 bands" width="500">
-  <figcaption> <font size="2">Sentinel-2 processing levels. Only Level-1C and Level-2A products (in green) are made available to users</font></figcaption>
-</figure>
+![S2 levels](s2_levels.jpg)
+
+<font size="2">Sentinel-2 processing levels. Only Level-1C and Level-2A products (in green) are made available to users</font>
 
 
 Level-1C and Level-2A are projected onto a UTM/WGS84 grid and made available publicly on 100x100 km tiles. Each tile has a unique ID. Take a look on the Sentinel-2 UTM tiling grid by clicking [here](https://eatlas.org.au/data/uuid/f7468d15-12be-4e3f-a246-b2882a324f59) !
 
-<figure class="image">
-  <img src="s2_tiles.png" alt="S2 tiles" width="600">
-  <figcaption> <font size="2">Sentinel-2 tiles in Belgium. Three tiles cover the majority of the Belgian territory: 31UES, 31UFS and 31UFR </font> </figcaption>
-</figure>
+![S2 tiles](s2_tiles.png)
+<font size="2">Sentinel-2 tiles in Belgium. Three tiles cover the majority of the Belgian territory: 31UES, 31UFS and 31UFR </font>
+
 
 ## Spectral bands & spatial resolution
 
@@ -50,13 +52,9 @@ The spatial resolution of Sentinel-2 is dependent on the particular spectral ban
 | | B11 (1610 nm)
 | | B12 (2190 nm)
 
+![S2 bands](s2_bands.png)
 
-<figure class="image">
-  <img src="s2_bands.png" alt="S2 bands" width="600">
-  <figcaption>Sentinel-2 spectral bands</figcaption>
-</figure>
-
-# Data Formats
+## Data Formats
 
 Sentinel-2 products are made available to users in *SENTINEL-SAFE* format, including image data in JPEG2000 format, quality indicators (e.g. defective pixels mask), auxiliary data and metadata.
 
@@ -70,7 +68,6 @@ A Sentinel-2 product refers to a directory folder that contains a collection of 
 - a subfolder with auxiliary data (e.g. International Earth Rotation & Reference Systems (IERS) bulletin)
 - HTML previews
 
-## Level-2 Data Format
 
 The Level-2A prototype product is an orthorectified product providing Bottom-Of-Atmosphere (BOA) reflectances, and basic pixel classification (including classes for different types of cloud).
 
@@ -84,10 +81,8 @@ The Level-2 product is also in SAFE format, which groups together several types 
 - auxiliary data
 - ancillary data (Ground Image Processing Parameters (GIPPs))
 
-<figure class="image">
-  <img src="safe_folder.png" alt="SAFE folder" width="800">
-  <figcaption>SAFE folder</figcaption>
-</figure>
+![SAFE folder](safe_folder.png)
+
 
 ```{note}
 Before strating this notebook, you should download Sentinel-2 Level-2A products. The L2A products are downloadable by tiles which are 100x100 km ortho-images in UTM/WGS84 projection.
