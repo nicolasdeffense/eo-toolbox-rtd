@@ -11,15 +11,14 @@ Reductions may occur over :
 
 Consider the example of needing to take the median over a time series of images represented by an `ImageCollection`. To reduce an `ImageCollection`, use `imageCollection.reduce()`. This reduces the collection of images to an individual image. Specifically, the output is computed pixel-wise, such that each pixel in the output is composed of the median value of all the images in the collection at that location. To get other statistics, such as mean, sum, variance, an arbitrary percentile, etc., the appropriate reducer should be selected and applied.
 
-> For basic statistics like min, max, mean, etc., `ImageCollection` has shortcut methods like `min()`, `max()`, `mean()`, etc. They function in exactly the same way as calling `reduce()`, except the resultant band names will not have the name of the reducer appended.
+```{note}
+For basic statistics like min, max, mean, etc., `ImageCollection` has shortcut methods like `min()`, `max()`, `mean()`, etc. They function in exactly the same way as calling `reduce()`, except the resultant band names will not have the name of the reducer appended.
+```
 
 **To composite images in an `ImageCollection`, use `imageCollection.reduce()`. This will composite all the images in the collection to a single image representing, for example, the min, max, mean or standard deviation of the images.**
 
 
-<figure class="image">
-    <img src="../figures/Reduce_ImageCollection.png" alt="Image classification" width="200">
-    <figcaption>Illustration of an ee.Reducer applied to an ImageCollection.</figcaption>
-</figure>
+![reducer](Reduce_ImageCollection.png)
 
 
 ## Composite over a single time period 

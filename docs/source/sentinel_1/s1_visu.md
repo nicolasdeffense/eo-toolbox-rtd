@@ -1,4 +1,3 @@
-
 # Visualization
 
 ## Visualize single image
