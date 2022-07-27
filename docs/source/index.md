@@ -20,6 +20,8 @@ roi/index
 
 sentinel_2/index
 
+sentinel_1/index
+
 classification/index
 
 ```
