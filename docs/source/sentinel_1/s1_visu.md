@@ -1,6 +1,6 @@
 # Visualization
 
-## Visualize single image
+## Single image
 
 ```js
 Map.centerObject(roi, 12)
@@ -8,7 +8,7 @@ Map.addLayer(s1_mean, {min: -25, max: 5}, 'yearly mean', true)
 Map.addLayer(s1_std, {min: 0, max: 4}, 'yearly std', true)
 ```
 
-## Visualize imageCollection
+## Image Collection
 
 ### Map layers
 

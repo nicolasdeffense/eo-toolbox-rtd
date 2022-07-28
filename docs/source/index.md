@@ -11,24 +11,21 @@
 
 ```{toctree}
 :maxdepth: 1
-
 :caption: Get Started
 
 installation/index
 
-:caption: Get data
-
 eo_data_download/index
 
-roi/index
+gee/index
 
-:caption: Satellites
+roi/index
 
 sentinel_2/index
 
 sentinel_1/index
 
-:caption: Tools
+landsat/index
 
 classification/index
 
