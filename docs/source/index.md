@@ -10,18 +10,28 @@
 ---
 
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 1
+
+:caption: Get Started
 
 installation/index
+
+:caption: Get data
 
 eo_data_download/index
 
 roi/index
 
+:caption: Satellites
+
 sentinel_2/index
 
 sentinel_1/index
 
+:caption: Tools
+
 classification/index
+
+zonal_stats/index
 
 ```
