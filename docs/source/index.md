@@ -15,17 +15,21 @@
 
 installation/index
 
-eo_data_download/index
-
 gee/index
 
+eo_data_download/index
+
 roi/index
+
+:caption: Satellites
 
 sentinel_2/index
 
 sentinel_1/index
 
 landsat/index
+
+:caption: Analysis
 
 classification/index
 

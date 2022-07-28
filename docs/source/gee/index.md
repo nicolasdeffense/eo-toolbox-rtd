@@ -1,3 +1,4 @@
+# Google Earth Engine
 
 ## What is Earth Engine?
 
@@ -20,6 +21,16 @@ Users can also upload their own data for analysis in Earth Engine, with full con
 ## Can I use my own proprietary imagery and vector data?
 
 Yes. Earth Engine enables you to upload your own raster and vector data (e.g. GeoTIFF or Shape files) for analysis.
+
+
+```{toctree}
+:maxdepth: 2
+
+gee_import
+
+gee_export
+
+```
 
 ---
 
