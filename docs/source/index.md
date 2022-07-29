@@ -17,10 +17,13 @@ installation/index
 
 gee/index
 
-eo_data_download/index
-
 roi/index
 
+eo_data_download/index
+```
+
+```{toctree}
+:maxdepth: 1
 :caption: Satellites
 
 sentinel_2/index
@@ -28,11 +31,13 @@ sentinel_2/index
 sentinel_1/index
 
 landsat/index
+```
 
+```{toctree}
+:maxdepth: 1
 :caption: Analysis
 
 classification/index
 
 zonal_stats/index
-
 ```
