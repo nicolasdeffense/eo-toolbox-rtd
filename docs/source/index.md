@@ -40,4 +40,7 @@ landsat/index
 classification/index
 
 zonal_stats/index
+
+composite/composites
+
 ```
