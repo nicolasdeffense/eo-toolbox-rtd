@@ -11,4 +11,6 @@ s2_prepro
 
 s2_spectral_indices
 
+s2_temporal_resampling
+
 ```
