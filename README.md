@@ -19,7 +19,7 @@ Everything we use in the course is **open-source**, which means you can use your
 | Easter Holidays |  -  |
 | Easter Holidays |  -  |
 | S9 - 17 apr  | Zonal statistics  |
-| S10 - 24 apr |    |
+| S10 - 24 apr | Composites   |
 | **.. apr** | **Livrable 3**  |
 | S11 - 01 may |    |
 | S12 - 08 may | Tutoring |
