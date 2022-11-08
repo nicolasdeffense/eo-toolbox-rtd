@@ -4,6 +4,15 @@
 Only for students with access to the lab’s IT infrastructure
 ```
 
+## Visual Studio Code (*recommanded*)
+
+1. Set up your VS Code environment
+
+![Visual Studio Code](vs_code.png)
+
+
+## Anaconda on Geo14
+
 1. Connect to Windows server Geo14 (*geo14.elie.ucl.ac.be*)
     
     *Don't forget to activate your VPN if you're not connected in eduroam WIFI !*
