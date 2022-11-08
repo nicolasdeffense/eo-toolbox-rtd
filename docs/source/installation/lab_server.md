@@ -6,10 +6,11 @@ Only for students with access to the lab’s IT infrastructure
 
 ## Visual Studio Code (*recommanded*)
 
-1. Set up your VS Code environment
+1. Open VS Code and connect to Linux server Geo09 (*geo09.elie.ucl.ac.be*)
 
-![Visual Studio Code](vs_code.png)
+> Check this file with explanations on how connect VS code to a server
 
+2. 
 
 ## Anaconda on Geo14
 

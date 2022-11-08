@@ -13,6 +13,8 @@
 :maxdepth: 1
 :caption: Get Started
 
+agenda/agenda
+
 installation/index
 
 gee/index
