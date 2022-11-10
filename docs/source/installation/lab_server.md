@@ -2,21 +2,39 @@
 
 ```{note}
 Only for students with access to the lab’s IT infrastructure
+
+Don't forget to activate your VPN if you're not connected in eduroam WIFI !
 ```
 
 ## Visual Studio Code (*recommanded*)
 
 1. Open VS Code and connect to Linux server Geo09 (*geo09.elie.ucl.ac.be*)
 
-> Check this file with explanations on how connect VS code to a server
+![connect to geo09](connect_to_geo09.png)
 
-2. 
+<font size="2">Check if you are well connected to the server on the bottom left corner.</font>
+
+2. Install `Jupyter` and `Python` extensions
+
+![Jupyter Extension](jupyter_extension.png)
+
+<font size="2">Install “Jupyter" and "Python" extension. You may need to install others extensions. You will need to do these steps only once. </font>
+
+3. Navigate to the folder where the Jupyer Notebooks are stored
+
+![Open Folder](open_folder.png)
+
+4. Some python librairies are not installed by default. If it is the case, you will get an error message when you will try to import them. To install a python library, you have to open a terminal and use the `pip` command.
+
+![pip install](install_pip.png)
+
+<font size="2">Install `geopandas` library using `pip install`. You will need to do this step only once. </font>
+
+5. You can now open a Jupyter Notebook (or a python script) and take advantage of the storage space and computing power of the lab's servers !
 
 ## Anaconda on Geo14
 
 1. Connect to Windows server Geo14 (*geo14.elie.ucl.ac.be*)
-    
-    *Don't forget to activate your VPN if you're not connected in eduroam WIFI !*
 
 2. Open *Anaconda Prompt*
 
