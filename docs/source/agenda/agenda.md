@@ -9,7 +9,7 @@
 | S4 - 27 feb | Sentinel-2 preprocessing  |
 | S5 - 06 mar | Sentinel-1 & Landsat with GEE  |
 | **.. march** | **Livrable 1**  |
-| S6 - 13 mar | Vector data      |
+| S6 - 13 mar | Spectral Index & Vector data|
 | S7 - 20 mar | Classification 1/2  |
 | S8 - 27 mar | Classification 2/2  |
 | **.. march** | **Livrable 2**  |

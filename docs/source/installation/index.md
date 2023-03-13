@@ -11,4 +11,6 @@ computer_room
 personal_computer
 
 lab_server
+
+uds
 ```

@@ -16,7 +16,7 @@
 
 4. Create a conda envrionment from YAML file
     ```sh
-    conda env create --file env_lbrat2104.yml
+    conda env create --file {file_path}env_lbrat2104.yml
     ```
 
     The following python packages/libraries are now installed :
