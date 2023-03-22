@@ -45,4 +45,5 @@ zonal_stats/index
 
 composite/composites
 
+other/index
 ```

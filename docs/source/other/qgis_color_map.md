@@ -1,0 +1,2 @@
+# QGIS Color Map
+
