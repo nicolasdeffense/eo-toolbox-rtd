@@ -19,7 +19,7 @@ get_started/jupyter/index
 
 get_started/uds/uds
 
-gee/index
+gee/gee
 
 ```
 

@@ -9,7 +9,7 @@ landsat_cloud_mask
 
 landsat_composite
 
-landsat_visu
+landsat_composite_multiple_period
 
 ```
 ---

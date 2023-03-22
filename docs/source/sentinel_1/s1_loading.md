@@ -43,6 +43,10 @@ var instrument     = 'IW'
 ```
 
 ```js
+var roi = ee.FeatureCollection("users/nicolasdeffense/extent_roi_32631")
+```
+
+```js
 // Select S1 IW images in area of interest and time period
 var s1_filter = sentinel_1
                 .filter(ee.Filter.eq('instrumentMode', instrument))

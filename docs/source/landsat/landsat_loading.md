@@ -41,6 +41,10 @@ var endDate   = '2019-12-31'
 ```
 
 ```js
+var roi = ee.FeatureCollection("users/nicolasdeffense/extent_roi_32631")
+```
+
+```js
 // Select Landsat 8 images in area of interest and time period
 var l8_filter = landsat_8
                 .filterDate(startDate, endDate)

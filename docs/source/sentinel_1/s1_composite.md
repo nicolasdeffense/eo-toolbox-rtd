@@ -21,9 +21,6 @@ For basic statistics like min, max, mean, etc., `ImageCollection` has shortcut m
 ![reducer](Reduce_ImageCollection.png)
 
 
-## Composite over a single time period 
-
-
 ```js
 var startPeriod = '2019-01-01'
 var endPeriod   = '2019-03-31'
@@ -47,36 +44,32 @@ var s1_std  = s1_filter
                     .clip(roi)
 ```
 
-
-
-## Composite over mulitple time periods
+## Visualization
 
 
 ```js
-// List of months
-var months = ee.List.sequence(1, 12)
-print("Months : ",months)
-
-// List of years
-var years = ee.List.sequence(2019, 2019)
-print("Years : ",years)
-
-// Use .map() to compute monthly composite and clip them to the ROI
-var monthly_mean = ee.ImageCollection.fromImages(
-  years.map(function (y) {
-        return months.map(function (m) {
-                return s1_filter
-                        .filter(ee.Filter.calendarRange(y, y, 'year'))
-                        .filter(ee.Filter.calendarRange(m, m, 'month'))
-                        .reduce(ee.Reducer.mean())
-                        .set('year',y)
-                        .set('month',m);
-            });
-  })
-  .flatten())
-  .map(function(image){return image.clip(roi)})
+Map.centerObject(roi, 12)
+Map.addLayer(s1_mean, {min: -25, max: 5}, 'yearly mean', true)
+Map.addLayer(s1_std, {min: 0, max: 4}, 'yearly std', true)
 ```
 
-[Source](https://gis.stackexchange.com/questions/387012/google-earth-engine-calculating-and-plotting-monthly-average-ndvi-for-a-region)
 
+## Exportation to Google Drive
+
+```js
+// Get projection of the original image
+var projection = s1_filter.first().projection().getInfo()
+
+// Export the image, specifying the CRS, transform, and region.
+Export.image.toDrive({
+  image: s1_mean,
+  description: 'mean_Q1_Namur',
+  folder: 'LBRAT2104',
+  crs: projection.crs,                // The base coordinate reference system of this projection (e.g. 'EPSG:4326')
+  crsTransform: projection.transform, // The transform between projected coordinates and the base coordinate system
+  region: roi
+});
+```
+
+> Composite images created by reducing an image collection are able to produce pixels in any requested projection and therefore have no fixed output projection. Instead, composites have the default projection of WGS-84 with 1-degree resolution pixels. Composites with the default projection will be computed in whatever output projection is requested. A request occurs by displaying the composite in the Code Editor or by explicitly specifying a projection/scale as in an aggregation such as `ReduceRegion` or `Export`.
 

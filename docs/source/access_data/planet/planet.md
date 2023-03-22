@@ -3,11 +3,6 @@
 Through *Norway's International Climate & Forests Initiative* (NICFI), users can now access Planet's high-resolution, analysis-ready mosaics of the world's tropics in order to help reduce and reverse the loss of tropical forests, combat climate change, conserve biodiversity, and facilitate sustainable development for non commercial uses.
 
 
-<figure class="image">
-  <img src="nicfi.png"  width="30%" height="30%">
-</figure>
-
-
 > You can also try to get access to Planet product via the [Education and Research Program](https://www.planet.com/markets/education-and-research/)
 
 ## NICFI Program Data
@@ -26,10 +21,7 @@ Product Specifications:
     - Archive from December, 2015 - August, 2020 at bi-annual cadence
     - Monitoring from September, 2020 - onwards at monthly cadence
 
-
-<figure class="image">
-    <img src="nicfi_coverage_1.png"  width="60%" height="30%">
-</figure>
+![NICFI coverage](nicfi_coverage_1.png)
 
 ### PlanetScope Surface Reflectance Mosaics (Analysis Ready)
 
@@ -48,9 +40,9 @@ Product Specifications:
 Imagery within Planet basemaps is distributed as a grid of GeoTIFF files, which are called “basemap quads” or simply “quads”.
 
 
-<figure class="image">
-    <img src="quad.png"  width="30%" height="30%">
-</figure>
+
+![quads](quad.png)
+
 
 The projection used in Planet Basemaps has been selected to match what standard web mapping applications (Web Mercator Projection). The Alpha Mask indicates areas of the quad where there is no imagery data available.
 
