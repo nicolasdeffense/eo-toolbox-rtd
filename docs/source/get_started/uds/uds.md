@@ -1,4 +1,4 @@
-# UDS
+# UDS - Universal Desktop Service
 
 Unfortunately, students cannot mount the shared disk on their own PC even with the UCL wifi network.
 

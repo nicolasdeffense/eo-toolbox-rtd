@@ -13,16 +13,27 @@
 :maxdepth: 1
 :caption: Get Started
 
-agenda/agenda
+get_started/agenda/agenda
 
-installation/index
+get_started/jupyter/index
+
+get_started/uds/uds
 
 gee/index
+
+```
+
+```{toctree}
+:maxdepth: 1
+:caption: Access data
 
 roi/index
 
 eo_data_download/index
+
 ```
+
+
 
 ```{toctree}
 :maxdepth: 1
@@ -46,4 +57,5 @@ zonal_stats/index
 composite/composites
 
 other/index
+
 ```
