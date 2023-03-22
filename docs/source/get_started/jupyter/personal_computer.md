@@ -10,7 +10,7 @@
 
     [Getting started with conda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)
 
-2. Download the YAML file `env_lbrat2104.yml`
+2. Download the YAML file [env_lbrat2104.yml](https://github.com/nicolasdeffense/eo-toolbox-rtd/blob/main/env_lbrat2104.yml)
 
 3. Open *Anaconda Prompt* (Windows) or *Terminal* (MacOS)
 

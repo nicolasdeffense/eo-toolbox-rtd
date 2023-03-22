@@ -27,12 +27,17 @@ gee/index
 :maxdepth: 1
 :caption: Access data
 
-roi/index
+access_data/roi/region_of_interest
 
-eo_data_download/index
+access_data/eo_browser/eo_browser
+
+access_data/lsa/lsa
+
+access_data/scihub/scihub
+
+access_data/planet/planet
 
 ```
-
 
 
 ```{toctree}
