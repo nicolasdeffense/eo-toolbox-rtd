@@ -37,6 +37,8 @@ access_data/scihub/scihub
 
 access_data/planet/planet
 
+access_data/dem/dem
+
 ```
 
 
