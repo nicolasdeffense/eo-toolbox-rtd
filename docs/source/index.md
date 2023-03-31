@@ -67,5 +67,7 @@ composite/composites
 :maxdepth: 1
 :caption: Other
 
-color_map/create_qgis_color_map
+other/color_map/create_qgis_color_map
+
+other/visu_rasterio
 ```
