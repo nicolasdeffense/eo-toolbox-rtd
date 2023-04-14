@@ -1,10 +1,10 @@
-# Cloud Mask (GEE)
+# Cloud Mask
 
 
 ## Mask clouds using the Sentinel-2 QA band
 
 ```js
-function maskS2clouds(image) {
+function maskS2cloudsQA(image) {
   var QA = image.select('QA60')
   
   // Bits 10 and 11 are clouds and cirrus, respectively.
@@ -23,8 +23,8 @@ function maskS2clouds(image) {
 ```
 
 ```js
-var s2_maskS2clouds_QA = s2_filter
-                           .map(maskS2clouds)
+var s2_mask_cloudsQA = s2_filter
+                           .map(maskS2cloudsQA)
 ```
 
 ## Mask clouds using the Sentinel-2 cloud probability
@@ -79,6 +79,6 @@ var s2SrWithCloudMask = ee.Join.saveFirst('cloud_mask').apply({
       ee.Filter.equals({leftField: 'system:index', rightField: 'system:index'})
 });
 
-var s2CloudMasked = ee.ImageCollection(s2SrWithCloudMask)
-                      .map(maskS2cloudsProba)
+var s2_mask_cloudsProba = ee.ImageCollection(s2SrWithCloudMask)
+                              .map(maskS2cloudsProba)
 ```

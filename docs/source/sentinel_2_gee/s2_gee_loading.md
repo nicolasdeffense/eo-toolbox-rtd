@@ -1,4 +1,4 @@
-# Load Sentinel-2 Surface Reflectance (GEE)
+# Load Sentinel-2 Surface Reflectance
 
 The Sentinel-2 L2 data are downloaded from SciHub. They were computed by running Sen2Cor.
 

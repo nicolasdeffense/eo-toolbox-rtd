@@ -7,4 +7,6 @@ s2_gee_loading
 
 s2_gee_cloud_mask
 
+s2_gee_composite
+
 ```
