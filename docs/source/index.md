@@ -48,6 +48,8 @@ access_data/dem/dem
 
 sentinel_2/index
 
+sentinel_2_gee/index
+
 sentinel_1/index
 
 landsat/index
