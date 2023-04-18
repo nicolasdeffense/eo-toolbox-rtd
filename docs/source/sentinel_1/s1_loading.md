@@ -2,6 +2,8 @@
 
 The Sentinel-1 mission provides data from a dual-polarization C-band Synthetic Aperture Radar (SAR) instrument at 5.405GHz (C band). This collection includes the S1 Ground Range Detected (GRD) scenes, processed using the Sentinel-1 Toolbox to generate a calibrated, ortho-corrected product. The collection is updated daily. New assets are ingested within two days after they become available.
 
+All information concerning *Sentinel-1 SAR GRD: C-band Synthetic Aperture Radar Ground Range Detected* are available [here](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD)
+
 ```js
 // Load Sentinel-1 GRD
 

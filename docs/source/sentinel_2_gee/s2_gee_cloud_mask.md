@@ -1,5 +1,7 @@
 # Cloud Mask
 
+<p>Clouds can be removed by using the Sentinel-2 QA band
+or the <a href="/earth-engine/datasets/catalog/COPERNICUS_S2_CLOUD_PROBABILITY">COPERNICUS/S2_CLOUD_PROBABILITY</a>.
 
 ## Mask clouds using the Sentinel-2 QA band
 
@@ -57,24 +59,11 @@ var s2_mask_cloudsQA = s2_filter
 
 The S2 cloud probability is created with the sentinel2-cloud-detector library (using LightGBM). All bands are upsampled using bilinear interpolation to 10m resolution before the gradient boost base algorithm is applied. The resulting 0..1 floating point probability is scaled to 0..100 and stored as a UINT8. Areas missing any or all of the bands are masked out. Higher values are more likely to be clouds or highly reflective surfaces (e.g. roof tops or snow).
 
-<section>
-<table class="eecat">
-<tr>
-<th scope="col">Name</th>
-<th scope="col">Min</th>
-<th scope="col">Max</th>
-<th scope="col">Pixel Size</th>
-<th scope="col">Description</th>
-</tr>
-<tr>
-<td><code translate="no" dir="ltr">probability</code></td>
-<td> 0 </td>
-<td> 100 </td>
-<td> 10 meters </td>
-<td><p>Probability that the pixel is cloudy.</p></td>
-</tr>
-</table>
-</section>
+
+| Name | Min  | Max | Pixel Size | Description |
+|----------|:----------: |:----------:|:---------: | :--------:|
+| `probability` | 0 | 100 | 10 meters | Probability that the pixel is cloudy. |
+
 
 [More info](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_CLOUD_PROBABILITY#description)
 
