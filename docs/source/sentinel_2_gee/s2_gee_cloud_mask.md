@@ -3,17 +3,43 @@
 
 ## Mask clouds using the Sentinel-2 QA band
 
+
+<section class="expandable">
+<p class="showalways">Bitmask for QA60</p>
+<ul>
+<li> Bits 0-9: Unused
+<ul>
+</ul>
+</li>
+<li> Bit 10: Opaque clouds
+<ul>
+<li>0: No opaque clouds</li>
+<li>1: Opaque clouds present</li>
+</ul>
+</li>
+<li> Bit 11: Cirrus clouds
+<ul>
+<li>0: No cirrus clouds</li>
+<li>1: Cirrus clouds present</li>
+</ul>
+</li>
+</ul>
+</section>
+
+[More info](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED#bands)
+
+
 ```js
 function maskS2cloudsQA(image) {
-  var QA = image.select('QA60')
+  var qa = image.select('QA60')
   
   // Bits 10 and 11 are clouds and cirrus, respectively.
   var cloudBitMask = 1 << 10
   var cirrusBitMask = 1 << 11
   
   // Both flags should be set to zero, indicating clear conditions.
-  var cloud  = QA.bitwiseAnd(cloudBitMask).eq(0)
-  var cirrus = QA.bitwiseAnd(cirrusBitMask).eq(0)
+  var cloud  = qa.bitwiseAnd(cloudBitMask).eq(0)
+  var cirrus = qa.bitwiseAnd(cirrusBitMask).eq(0)
   var mask = cloud
               .and(cirrus)
   
@@ -29,10 +55,33 @@ var s2_mask_cloudsQA = s2_filter
 
 ## Mask clouds using the Sentinel-2 cloud probability
 
+The S2 cloud probability is created with the sentinel2-cloud-detector library (using LightGBM). All bands are upsampled using bilinear interpolation to 10m resolution before the gradient boost base algorithm is applied. The resulting 0..1 floating point probability is scaled to 0..100 and stored as a UINT8. Areas missing any or all of the bands are masked out. Higher values are more likely to be clouds or highly reflective surfaces (e.g. roof tops or snow).
 
+<section>
+<table class="eecat">
+<tr>
+<th scope="col">Name</th>
+<th scope="col">Min</th>
+<th scope="col">Max</th>
+<th scope="col">Pixel Size</th>
+<th scope="col">Description</th>
+</tr>
+<tr>
+<td><code translate="no" dir="ltr">probability</code></td>
+<td> 0 </td>
+<td> 100 </td>
+<td> 10 meters </td>
+<td><p>Probability that the pixel is cloudy.</p></td>
+</tr>
+</table>
+</section>
+
+[More info](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_CLOUD_PROBABILITY#description)
 
 ```js
 var s2_cloudsProba = ee.ImageCollection('COPERNICUS/S2_CLOUD_PROBABILITY')
+
+var MAX_CLOUD_PROBABILITY = 65
 
 var s2_cloudsProba_filter = s2_cloudsProba
                               .filterDate(startDate, endDate)
@@ -57,20 +106,13 @@ function maskS2cloudsProba(image) {
 // COPERNICUS/S2_CLOUD_PROBABILITY/20190301T000239_20190301T000238_T55GDP
 function maskS2Edges(image) {
   var maskedImage = image.updateMask(
-                        image.select('B8A')
-                             .mask()
-                             .updateMask(image.select('B9')
-                                              .mask()
-                                        )
-                                      )
-  
+                        image.select('B8A').mask()
+                             .updateMask(image.select('B9').mask()))
   return maskedImage
 }
 ```
 
 ```js
-var MAX_CLOUD_PROBABILITY = 65
-
 // Join S2 SR with cloud probability dataset to add cloud mask.
 var s2SrWithCloudMask = ee.Join.saveFirst('cloud_mask').apply({
   primary: s2_filter.map(maskS2Edges),
