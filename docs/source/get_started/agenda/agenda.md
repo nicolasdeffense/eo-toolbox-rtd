@@ -7,21 +7,20 @@
 |-------------|:---------------:|
 | S3 - 20 feb | Region of interest + EO data download |
 | S4 - 27 feb | Sentinel-2 preprocessing  |
+| **27 feb** | **Delivrable 1**  |
 | S5 - 06 mar | Sentinel-1 & Landsat with GEE  |
-| **.. march** | **Livrable 1**  |
 | S6 - 13 mar | Spectral Index & Vector data|
 | S7 - 20 mar | Split Cal-Val & RF Classification  |
 | S8 - 27 mar | Validation & Zonal statistics  |
-| **.. march** | **Livrable 2**  |
+| **27 march** | **Delivrable 2**  |
 | Easter Holidays |  -  |
 | Easter Holidays |  -  |
-| S9 - 17 apr  | Composites  |
-| S10 - 24 apr |    |
-| **.. apr** | **Livrable 3**  |
-| S11 - 01 may |    |
-| S12 - 08 may | Tutoring |
-| S13 - 15 may | Tutoring |
-| **.. may** | **Livrable 4 - Final version**  |
+| S9 - 17 apr  | Composites & Tutoring |
+| S10 - 24 apr |  Tutoring - Q&A  |
+| **24 apr** | **Delivrable 3**  |
+| S11 - 01 may |  Tutoring - Q&A |
+| S12 - 08 may | Tutoring - Q&A |
+| **30 may** | **Delivrable 4 - Final version of your poster**  |
 
 ---
 
