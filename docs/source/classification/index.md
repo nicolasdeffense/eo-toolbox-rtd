@@ -5,7 +5,9 @@
 
 in_situ_preparation
 
-in_situ_sampling_design
+in_situ_split_cal_val
+
+in_situ_split_cal_val_complex_strategies
 
 random_forest_classification
 
