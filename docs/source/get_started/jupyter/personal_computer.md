@@ -16,20 +16,8 @@
 
 4. Create a conda envrionment from YAML file
     ```sh
-    conda env create --file {file_path}env_lbrat2104.yml
+    conda env create --file {file_path}env_lbrat2104_2024.yml
     ```
-
-    The following python packages/libraries are now installed :
-    - [numpy 1.19.2](https://numpy.org)
-    - [pandas 1.1.5](https://pandas.pydata.org)
-    - [geopandas 0.8.1](https://geopandas.org/)
-    - [matplotlib 3.3.4](https://matplotlib.org)
-    - [rasterio 1.1.0](https://rasterio.readthedocs.io/en/latest/intro.html)
-    - [rasterstats 0.14.0](https://pythonhosted.org/rasterstats/)
-    - [scipy 1.5.2](https://www.scipy.org/about.html)
-    - [scikit-learn 0.24.1](https://scikit-learn.org/stable/)
-    - [jupyter lab](http://jupyter.org)
-
 
 5. Activate **LBRAT2104**'s environment
     ```sh
@@ -46,15 +34,7 @@
     pip install sentinelsat
     ```
 
-7. Test the environment (optional)
-
-    To make sure everything was installed correctly you can run the small python script `check_environment.py`  *(check_environment.py)*
-
-    ```sh
-    python3 check_environment.py
-    ```
-
-8. Launch JupyterLab
+7. Launch JupyterLab
     ```sh
     jupyter lab
     ```
