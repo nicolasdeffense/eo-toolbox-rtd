@@ -61,6 +61,8 @@ landsat/index
 
 classification/index
 
+classification/extract_random_points
+
 zonal_stats/index
 
 composite/composites
