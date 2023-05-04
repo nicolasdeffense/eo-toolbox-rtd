@@ -2,6 +2,9 @@
 
 *Academic year - 2022-2023*
 
+```{note}
+Visit [ADE](https://horaire.uclouvain.be/direct/) for up-to-date information on schedules and rooms.
+```
 
 | Week        |      Topic      |
 |-------------|:---------------:|
@@ -18,8 +21,10 @@
 | S9 - 17 apr  | Composites & Tutoring |
 | S10 - 24 apr |  Tutoring - Q&A  |
 | **24 apr** | **Delivrable 3**  |
-| S11 - 01 may |  Tutoring - Q&A |
+| S11 - 01 may | Tutoring - Q&A |
 | S12 - 08 may | Tutoring - Q&A |
+| S13 - 15 may | /// |
+| B01 - 22 may | Tutoring - Q&A |
 | **30 may** | **Delivrable 4 - Final version of your poster**  |
 
 ---
