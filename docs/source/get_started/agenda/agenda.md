@@ -23,7 +23,7 @@ Visit [ADE](https://horaire.uclouvain.be/direct/) for up-to-date information on 
 | **24 apr** | **Delivrable 3**  |
 | S11 - 01 may | Tutoring - Q&A |
 | S12 - 08 may | Tutoring - Q&A |
-| S13 - 15 may | /// |
+| S13 - 15 may | - |
 | B01 - 22 may | Tutoring - Q&A |
 | **30 may** | **Delivrable 4 - Final version of your poster**  |
 
